@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html, body, button, a {
+    font-family: 'Noto Sans KR',  '맑은 고딕' , sans-serif  ;
+    color: #666666;
+  }
+
+a {
+  text-decoration: none;
+  color: inherit;
+  border-radius: 4px;
+}
+
+ul {
+    list-style: none;
+}
+
+button{
+    border: 0;
+    background-color: transparent;
+    cursor: pointer;
+    border-radius: 4px;
+    outline: none;
+
+    
+}
+
+.hide{display: none;}
+
+table{ 
+  margin: auto;
+  margin-top: 25px;
+ }
+
+td{
+  padding: 20px 0;
+  padding-left: 25px;
+}
+
+td > img{
+    width: 50%;
+}
+
+tbody >tr:first-child >td{
+  padding: 0 0 0 25px;
+  text-align: center;
+}
+
+
+
+tbody >tr:nth-child(2) >td{
+  border-bottom: 1px solid #dddddd;
+}
+
+tbody >tr:nth-child(2){
+  font-size: 25px;
+  color: #555555;
+}
+tbody >tr:nth-child(3){
+  font-size: 18px;
+}
+.blue{
+  color: #114581;
+}
+
+tbody >tr:last-child{
+}
